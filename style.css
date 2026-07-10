@@ -78,3 +78,54 @@ img {
   border-radius: 10px;
   border: 0;
 }
+
+
+
+.hero {
+  position: relative;
+  height: 786px;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.herobox {
+  padding-top: 136px;
+}
+
+.herobox h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: -3.2px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.herobox h1 i {
+  font-style: italic;
+}
+
+.herobox p {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.9);
+  max-width: 829px;
+  margin: 0 auto;
+  line-height: 1.0909;
+}
+
+.cta {
+  display: inline-block;
+  background: #1D4ED8;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 278px;
+}
