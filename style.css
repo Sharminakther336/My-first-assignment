@@ -188,3 +188,123 @@ img {
   font-weight: 400;
   color: #575757;
 }
+
+.prsec {
+  padding: 80px 0;
+  background: #F8F9FB;
+}
+
+.psub {
+  font-size: 16px;
+  font-weight: 400;
+  color: #575757;
+  text-align: center;
+}
+
+.pcards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.pcard {
+  width: 370px;
+  padding: 32px;
+  border-radius: 12px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pn {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888;
+  margin-bottom: 6px;
+}
+
+.pprice {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0D1B2A;
+}
+
+.ppl {
+  font-size: 13px;
+  font-weight: 400;
+  color: #888888;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.pcard hr {
+  border: 0;
+  height: 1px;
+  background: #E5E7EB;
+  margin-bottom: 20px;
+}
+
+.pcard .pfeat {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.pcard .pfeat li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.pcard .pfeat li .dot {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.pcard .pbtn {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px 0;
+  border-radius: 8px;
+}
+
+.pcard .b1 {
+  background: transparent;
+  color: #2563EB;
+  border: 1px solid #2563EB;
+}
+
+.pcard .b2 {
+  background: #2563EB;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.pcard .b3 {
+  background: transparent;
+  color: #0D1B2A;
+  border: 1px solid #0D1B2A;
+}
+
+.pst {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+}
+
+.ppr {
+  background: #0D1B2A;
+  border: 1px solid #0D1B2A;
+}
+
+.ptm {
+  background: #F8F9FB;
+  border: 1px solid #E5E7EB;
+}
+
+
